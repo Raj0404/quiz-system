@@ -7,6 +7,15 @@ Below you'll find the images of the project's GUI and the description of all the
 ---
 ## Images
 ![All classes](https://github.com/user-attachments/assets/4a057373-0b99-4896-a51e-37d1bf26e2d4)
+![All quizzes](https://github.com/user-attachments/assets/61c3c850-c291-40d7-93df-4104c2f6ee5e)
+![User login](https://github.com/user-attachments/assets/6cae50f9-02c0-4ecd-b0c5-5e827e71caed)
+![Login](https://github.com/user-attachments/assets/12a27ca9-4d6f-470c-814c-8d494a27c36b)
+![invalid](https://github.com/user-attachments/assets/edaf319e-b624-4942-9b60-fee88cad5248)
+![Sample question](https://github.com/user-attachments/assets/b1e19f87-de93-4178-abc7-eb57c9fd641c)
+![student final](https://github.com/user-attachments/assets/9add180d-3734-4701-838f-73bc4b2df810)
+![teacher create page](https://github.com/user-attachments/assets/6eaebbe6-b424-4e7c-b824-44080baf3ad9)
+![types of questions](https://github.com/user-attachments/assets/aa2c41d7-e9a8-490b-a12a-aa29f7db64c1)
+
 
 
 ## Folder Descriptions
