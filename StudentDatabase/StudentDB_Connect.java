@@ -14,7 +14,7 @@ public class StudentDB_Connect {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con;
             
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/questionsdb?autoReconnect=true&useSSL=false","root","Unity4ever");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/questionsdb?autoReconnect=true&useSSL=false","root","UseYourPassword");
             System.out.println("connected");
             Statement stmt = con.createStatement();
             String s = Query;
