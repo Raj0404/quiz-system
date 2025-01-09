@@ -18,7 +18,7 @@ public class databaseConnect {
             Class.forName("com.mysql.cj.jdbc.Driver");
             
             // System.out.println(con);
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/questionsdb?autoReconnect=true&useSSL=false","root","Unity4ever");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/questionsdb?autoReconnect=true&useSSL=false","root","UseYourPassword");
             return con;
         }catch(Exception e){
             System.out.println(e);
