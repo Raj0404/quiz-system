@@ -36,7 +36,7 @@ public class facultyLoginPage {
         //frame_StudentLogin.setSize(1500, 800);
         frame_StudentLogin.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         
-        JLabel background=new JLabel(new ImageIcon("C:/Users/rajdi/OneDrive/Desktop/16183196_NEUMORPHIC_CIRCLES_BACKGROUND.jpg"));
+        JLabel background=new JLabel(new ImageIcon("Give absolute path to some image stored locally"));
         background.setLayout(new FlowLayout());
         background.setSize(1520,850);
         
@@ -97,24 +97,7 @@ public class facultyLoginPage {
              
         });
 
-        // StudentLoginSubmit.addActionListener(new ActionListener() {
-        // public void actionPerformed(ActionEvent e) {
-        // String[] GivenStudent_Details = new String[2];
-        // GivenStudent_Details[0] = StudentUserName_Enter.getText();
-        // GivenStudent_Details[1] = StudentPassWord_Enter.getText();
-        // CheckStudentDetails check = new CheckStudentDetails();
-        // if (check.LoginChecker(GivenStudent_Details)) {
-        // // new Frame
-        // StudentMain StudentMainObject = new StudentMain();
-        // StudentMainObject.StudentMain_Page1();
-        // } else {
-        // JLabel LoginError = new JLabel();
-        // LoginError.setText("INVALID DETAILS. PLEASE TRY AGAIN.");
-        // LoginError.setBounds(120, 100, 100, 20);
-        // frame_StudentLogin.add(LoginError);
-        // }
-        // }
-        // });
+        
         frame_StudentLogin.add(StudentUserName);
         frame_StudentLogin.add(StudentPassWord);
         frame_StudentLogin.add(StudentUserName_Enter);
