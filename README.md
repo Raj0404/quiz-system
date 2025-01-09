@@ -4,6 +4,7 @@
 This project is a Java-based desktop application designed for faculty and students. It enables registered faculty members to create quizzes and allows registered students to attempt the available quizzes.
 
 ---
+![image](https://github.com/user-attachments/assets/b9daafab-719a-4259-9ebb-be5b8ee6c0f1)
 
 ## Folder Descriptions
 
