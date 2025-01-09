@@ -79,3 +79,42 @@ Compile and Run:
 
 Use an IDE like IntelliJ IDEA or Netbeans to open the project. I suggest to use NetBeans.
 Ensure all dependencies are resolved.
+
+
+Database Structure Description
+Database: questionsdb
+This is the primary database containing all tables required for the project.
+Tables Description
+1. Table: attempted
+Purpose: Tracks quizzes that have been attempted by students.
+Columns:
+sno: A unique identifier for each record.
+roll: The roll number of the student who attempted the quiz.
+testname: The name of the quiz attempted.
+attempt: The number of attempts made by the student.
+2. Table: faculty
+Purpose: Stores login credentials for registered faculty members.
+Columns:
+sno: A unique identifier for each faculty member.
+roll: A unique identifier or username for the faculty.
+password: The password for faculty login.
+3. Table: marks
+Purpose: Records the scores of students for completed quizzes.
+Columns:
+sno: A unique identifier for each record.
+name: The name of the student.
+score: The score obtained by the student.
+4. Table: quizzes
+Purpose: Maintains information about quizzes created by faculty.
+Columns:
+sno: A unique identifier for each quiz.
+tablename: The name of the table storing quiz questions.
+totalquestions: Total number of questions in the quiz.
+hour, minute, second: Duration of the quiz.
+published: A flag indicating whether the quiz is available for students.
+5. Table: student_info
+Purpose: Stores login credentials for registered students.
+Columns:
+sno: A unique identifier for each student.
+roll: A unique identifier or username for the student.
+password: The password for student login.
